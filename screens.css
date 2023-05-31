@@ -1,0 +1,266 @@
+/*Configurações da tela para celulares*/
+@media screen and (min-width: 360px) and (max-width: 640px)
+{
+    /*###############################################################################*/
+
+    /*Configurações do container*/
+    .container
+    {
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações do cabeçalho*/
+    .container h1
+    {
+        font-size: 2em;
+    }
+    .btn-menu:hover
+    {
+        color: white;
+        background-color: rgb(30, 30, 250) ;
+    }
+    nav a:hover
+    {
+        color: white;
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações da seção sobre a loja*/
+    #about .container
+    {
+        flex-direction: column;
+    }
+    #about .container img
+    {
+        height: 270px;
+        margin: 0 auto;
+    }
+    #about .container h2
+    {
+        margin-top: 10px;
+        text-align: center;
+    }
+    #about .container p
+    {
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações da seção Produtos*/
+    #products
+    {
+        margin: 100px;
+    }
+    #products .title-h2
+    {
+        display: none;
+    }
+    #products .title-cell
+    {
+        font-size: 25px;
+        display: block;
+        margin-bottom: 50px;
+        padding: 15px;
+        border-bottom: 3px solid rgb(30, 30, 250);
+    }
+    #products .container
+    {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container .item img
+    {
+        height: 270px;
+    }
+    .container .item h3
+    {
+        font-size: 30px;
+    }
+    .container .item p
+    {
+        font-size: 20px;
+    }
+    .container .item button
+    {
+        margin-top: 0;
+        margin-bottom: 50px;
+        padding: 5px;
+        font-size: 25px;
+        background-color: rgb(0, 145, 0);
+    }
+    .container .item button:hover
+    {
+        background-color: rgb(0, 145, 0);
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações do Rodapé*/
+    footer .container
+    {
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+    }
+    footer .container p
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;
+    }
+    footer .container p, footer .container address
+    {
+        margin-bottom: 5px;
+    }
+}
+
+/*###############################################################################*/
+/*###############################################################################*/
+/*###############################################################################*/
+
+/*Configurações da tela para tablets*/
+@media screen and (min-width: 641px) and (max-width: 1023px)
+{
+    /*###############################################################################*/
+
+    /*Configurações do container*/
+    .container
+    {
+        max-width: 760px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações do cabeçalho*/
+    .container h1
+    {
+        font-size: 2.5em;
+        margin-left: 30px;
+    }
+    .btn-menu
+    {
+        padding: 8px 10px;
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    nav a
+    {
+        font-size: 25px;
+    }
+    .btn-menu:hover
+    {
+        color: white;
+        background-color: rgb(30, 30, 250) ;
+    }
+    nav a:hover
+    {
+        color: white;
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações da seção sobre a loja*/
+    #about .container
+    {
+        flex-direction: column;
+    }
+    #about .container img
+    {
+        height: 540px;
+        margin: 0 auto;
+    }
+    #about .container h2
+    {
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #about .container p
+    {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações da seção Produtos*/
+    #products
+    {
+        margin: 100px;
+    }
+    #products .title-h2
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    #products .container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+    }
+    .container .item img
+    {
+        height: 300px;
+    }
+    .container .item h3
+    {
+        font-size: 40px;
+    }
+    .container .item p
+    {
+        font-size: 30px;
+    }
+    .container .item button
+    {
+        margin-top: 0;
+        margin-bottom: 50px;
+        padding: 10px;
+        font-size: 30px;
+        background-color: rgb(0, 145, 0);
+    }
+    .container .item button:hover
+    {
+        background-color: rgb(0, 145, 0);
+    }
+
+    /*###############################################################################*/
+
+    /*Configurações do Rodapé*/
+    footer
+    {
+        padding: 3em 0;
+        background-color: rgb(0, 0, 100);
+    }
+    footer .container
+    {
+        justify-content: flex-start;
+        flex-direction: column;
+        color: white;
+    }
+    footer .container p
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+    footer .container p, footer .container address
+    {
+        font-size: 20px;
+        margin: 0 10px;
+        margin-bottom: 5px;
+    }
+}
